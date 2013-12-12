@@ -1,0 +1,72 @@
+<!-- <head>
+
+
+  <link href="carousel.css" rel="stylesheet">
+  <style id="holderjs-style" type="test/css"></style>
+
+</head> -->
+     
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+      </ol>
+
+      <div class="carousel-inner">
+        
+        <div class="item">
+          <!-- <img src="/home/vipin/rails_projects/app/app/assets/images/echo.jpg" alt="1"  /> -->
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Bill payment had never been so easy !</h1>
+                <p>Now pay all your bills at one stop</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="item active">
+          <!-- <img src="/home/vipin/rails_projects/app/app/assets/images/echo.jpg" alt="2"  /> -->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Welcome to the one stop for all your recharge and payments needs!</h1>
+              <p>Bill payments, mobile recharges, DTH, Data cards, ticket booking, online shopping and much more! </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <!-- <img src="/home/vipin/rails_projects/app/app/assets/images/echo.jpg" alt="3"  /> -->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Just sit back and relax.</h1>
+              <p>Let us handle all your bill payments and online transactions!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicons-halflings glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicons-halflings glyphicon-chevron-right"></span></a>
+    </div> -->
+
+    <!--  Next and Previous controls below
+              href values must reference the id for this carousel -->
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+
+    <script src="/home/vipin/rails_projects/app/app/assets/holder.js"></script>
+    <script src="/home/vipin/rails_projects/app/app/assets/bootstrap.min1.js"></script>
+    <script src="/home/vipin/rails_projects/app/app/assets/jQuery-1.10.2.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+         $('.carousel').carousel({
+            interval: 2000;
+         });
+      });
+    </script>
